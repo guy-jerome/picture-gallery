@@ -1,0 +1,33 @@
+main {
+  text-align: center;
+  background-color: rgb(231, 228, 197);
+}
+main h4 {
+  text-decoration: underline;
+}
+
+#cat-gal {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.cat-image,
+.cat-image-main {
+  margin: 20px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: -3px 5px 5px 1px rgba(0, 0, 0, 0.475);
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+.cat-image {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.cat-image-main {
+  width: 400px;
+  height: 300px;
+}
+.cat-image:hover {
+  transform: scale(1.1); /* Increase size by 10% */
+}
